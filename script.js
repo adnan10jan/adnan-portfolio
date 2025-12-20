@@ -74,6 +74,37 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Resume Modal Logic
+    const modal = document.getElementById("resume-modal");
+    const btn = document.getElementById("view-resume-btn");
+    const span = document.querySelector(".close-modal");
+
+    if (btn && modal && span) {
+        btn.onclick = function () {
+            modal.style.display = "block";
+            // Small delay to allow display:block to apply before adding show class for transition
+            setTimeout(() => {
+                modal.classList.add("show");
+            }, 10);
+        }
+
+        span.onclick = function () {
+            modal.classList.remove("show");
+            setTimeout(() => {
+                modal.style.display = "none";
+            }, 300); // Wait for transition
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.classList.remove("show");
+                setTimeout(() => {
+                    modal.style.display = "none";
+                }, 300);
+            }
+        }
+    }
 });
 
 
