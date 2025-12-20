@@ -898,7 +898,7 @@ ul {
 
 /* Resume Modal Styles */
 .modal {
-    display: none;
+    display: none !important;
     position: fixed;
     z-index: 2000;
     left: 0;
@@ -913,7 +913,7 @@ ul {
 }
 
 .modal.show {
-    display: block;
+    display: block !important;
     opacity: 1;
 }
 
