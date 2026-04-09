@@ -59,7 +59,7 @@
                         <button id="view-resume-btn" class="btn btn-outline">
                             <ion-icon name="eye-outline"></ion-icon> View Resume
                         </button>
-                        <a href="Adnan Ansari.pdf" download class="btn btn-primary">
+                        <a href="Adnan Ansari CloudDevops.pdf" download class="btn btn-primary">
                             <ion-icon name="download-outline"></ion-icon> Download CV
                         </a>
                     </div>
@@ -120,7 +120,7 @@
     <section class="stats">
         <div class="container stats-container">
             <div class="stat-item">
-                <h3 class="stat-number">3+</h3>
+                <h3 class="stat-number">2+</h3>
                 <p class="stat-label">Years Experience</p>
             </div>
             <div class="stat-item">
@@ -142,36 +142,33 @@
             <div class="services-grid">
                 <div class="service-card blue-card">
                     <div class="card-icon"><ion-icon name="code-slash-outline"></ion-icon></div>
-                    <h3>Languages</h3>
-                    <p class="service-desc">Core programming languages used for application development and scripting.
-                    </p>
+                    <h3>Languages & OS</h3>
+                    <p class="service-desc">Core programming, scripting, and operating systems.</p>
                     <ul class="service-list">
-                        <li>Java, Python</li>
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>SQL</li>
+                        <li>Python, Bash, Shell Scripting</li>
+                        <li>Linux Administration</li>
                     </ul>
                 </div>
 
                 <div class="service-card light-card">
                     <div class="card-icon"><ion-icon name="cloud-outline"></ion-icon></div>
                     <h3>Dev Tools & Cloud</h3>
-                    <p class="service-desc">Tools and platforms for infrastructure, containerization, and automation.
-                    </p>
+                    <p class="service-desc">Tools and platforms for infrastructure, containerization, and automation.</p>
                     <ul class="service-list">
-                        <li>AWS, Azure, Git/GitHub</li>
-                        <li>Docker, Kubernetes, OpenShift</li>
-                        <li>Terraform, Ansible, GenAI</li>
+                        <li>AWS, Azure</li>
+                        <li>Docker, Kubernetes, Helm</li>
+                        <li>GitHub Actions, AWS CodeBuild</li>
                     </ul>
                 </div>
 
                 <div class="service-card light-card">
                     <div class="card-icon"><ion-icon name="layers-outline"></ion-icon></div>
-                    <h3>Frameworks</h3>
-                    <p class="service-desc">Modern frameworks for building robust, scalable full-stack applications.</p>
+                    <h3>IaC & Monitoring</h3>
+                    <p class="service-desc">Infrastructure as Code and proactive system monitoring.</p>
                     <ul class="service-list">
-                        <li>Spring Boot, React</li>
-                        <li>Tailwind CSS, Axios</li>
-                        <li>JPA/Hibernate, RESP API</li>
+                        <li>Terraform, Ansible, CloudFormation</li>
+                        <li>Prometheus, Grafana, Cloudwatch</li>
+                        <li>SonarQube, Checkmarx</li>
                     </ul>
                 </div>
             </div>
@@ -186,37 +183,14 @@
                 <div class="timeline-item">
                     <div class="timeline-date">March 2024 - Present</div>
                     <div class="timeline-content">
-                        <h3>Software Engineer</h3>
+                        <h3>Cloud DevOps Engineer</h3>
                         <h4>Microland</h4>
                         <ul class="experience-list">
-                            <li>Designed and supported cloud-native backend services with a focus on security,
-                                scalability, high availability, and core application architecture best practices.</li>
-                            <li>Developed and secured Spring Boot REST APIs using JWT-based authentication, role-based
-                                access control (RBAC), and authorization mechanisms.</li>
-                            <li>Containerized backend services and databases using Docker and Docker Compose to ensure
-                                consistent local, staging, and cloud deployments.</li>
-                            <li>Deployed applications on AWS EC2, integrating Application Load Balancer (ALB), HTTPS
-                                with ACM certificates, and custom domains via Route 53.</li>
-                            <li>Managed PostgreSQL databases and automated infrastructure, handling schema design with
-                                JPA/Hibernate, provisioning via Terraform and Ansible, CI/CD with Git/GitHub, and L2/L3
-                                production support.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">April 2023 - Feb 2024</div>
-                    <div class="timeline-content">
-                        <h3>Software Engineer (Contract)</h3>
-                        <h4>Tata Steel</h4>
-                        <ul class="experience-list">
-                            <li>Managed Linux servers end-to-end across on-prem and Azure, handling provisioning,
-                                patching, security hardening, vulnerability mitigation, and server restore on patch
-                                failures.</li>
-                            <li>Ensured server availability and stability through health monitoring, internal network,
-                                and rapid issue resolution.</li>
-                            <li>Worked with DevOps teams on Docker containerization and server provisioning from
-                                scratch.</li>
+                            <li>Provisioned and managed AWS and Azure infrastructure (EC2, S3, VPC, RDS, Azure VMs) using Terraform and CloudFormation, ensuring scalable and consistent environments.</li>
+                            <li>Built and maintained CI/CD pipelines using GitHub Actions and AWS CodeBuild, improving deployment speed by 35% and release reliability.</li>
+                            <li>Deployed and managed containerized microservices using Docker, Kubernetes, and Helm, ensuring high availability in production.</li>
+                            <li>Integrated SonarQube and Checkmarx into CI/CD pipelines to enforce code quality and security standards.</li>
+                            <li>Automated workflows using Bash/Python and configured monitoring with Prometheus, Grafana, and CloudWatch, reducing manual effort by 40% and improving system reliability.</li>
                         </ul>
                     </div>
                 </div>
@@ -239,17 +213,14 @@
                 <!-- Project 1 -->
                 <div class="project-card large-card">
                     <div class="project-content">
-                        <span class="project-tag">Full-Stack GenAI</span>
-                        <h3>AI Knowledge Assistant</h3>
-                        <p>Built a full-stack AI-powered application using Spring Boot, React, and Generative AI
-                            (OpenAI/Spring AI), with chat history persistence in MongoDB/MySQL. Implemented Docker-based
-                            containerization and designed the application with a cloud-ready, scalable architecture,
-                            focusing on modular services and API-driven integration.</p>
+                        <span class="project-tag">DevOps & Cloud</span>
+                        <h3>Microservices Deployment on Kubernetes (AWS EKS)</h3>
+                        <p>Containerized applications using Docker and deployed microservices on Kubernetes clusters using Helm charts. Implemented CI/CD pipelines using GitHub Actions for automated build and deployment. Integrated SonarQube for code quality checks, improving deployment success rate by 30%. Configured monitoring and logging for microservices using Prometheus and Grafana.</p>
                         <a href="#" class="project-link-btn"><ion-icon name="arrow-forward-outline"></ion-icon></a>
                     </div>
                     <div class="project-image">
                         <div class="img-placeholder gradient-1">
-                            <span>AI & CLOUD</span>
+                            <span>AWS EKS</span>
                         </div>
                     </div>
                 </div>
@@ -258,16 +229,13 @@
                 <div class="project-card large-card">
                     <div class="project-image">
                         <div class="img-placeholder gradient-2">
-                            <span>WEB APP</span>
+                            <span>IaC AUTOMATION</span>
                         </div>
                     </div>
                     <div class="project-content">
-                        <span class="project-tag">Full-Stack Web</span>
-                        <h3>Task Management Application</h3>
-                        <p>Built a full-stack web application using Spring Boot (Java) and React, designing RESTful APIs
-                            secured with JWT-based authentication, role-based authorization, and stateless security
-                            using Spring Security. Containerized backend with Docker and Docker Compose, integrated
-                            PostgreSQL, and deployed on AWS EC2.</p>
+                        <span class="project-tag">Infrastructure</span>
+                        <h3>Infrastructure Automation</h3>
+                        <p>Automated provisioning of AWS infrastructure including EC2, VPC, and RDS using Terraform and CloudFormation. Reduced environment setup time from days to under 2 hours. Implemented tagging strategies and cost optimization techniques for efficient resource utilization. Configured comprehensive monitoring.</p>
                         <a href="#" class="project-link-btn"><ion-icon name="arrow-forward-outline"></ion-icon></a>
                     </div>
                 </div>
@@ -309,6 +277,11 @@
                     <ion-icon name="ribbon-outline" class="cert-icon"></ion-icon>
                     <h3>AZ-204 Microsoft Certified</h3>
                     <p>Azure Developer Associate</p>
+                </div>
+                <div class="cert-card">
+                    <ion-icon name="ribbon-outline" class="cert-icon"></ion-icon>
+                    <h3>AZ-900 Microsoft Certified</h3>
+                    <p>Azure Fundamentals</p>
                 </div>
                 <div class="cert-card">
                     <ion-icon name="ribbon-outline" class="cert-icon"></ion-icon>
@@ -365,7 +338,7 @@
     <div id="resume-modal" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
-            <iframe src="Adnan Ansari.pdf" width="100%" height="100%"></iframe>
+            <iframe src="Adnan Ansari CloudDevops.pdf" width="100%" height="100%"></iframe>
         </div>
     </div>
 
